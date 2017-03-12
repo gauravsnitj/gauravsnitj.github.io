@@ -1,0 +1,243 @@
+/* ------------------------------------   appointment  ----------------------------------------- */
+
+.appointment
+{
+    background-color: grey;
+}
+.appointment .header 
+{
+    background-color: #46a1b4;
+    min-height: 99px;
+    height: auto !important;
+    padding: 10px 23px 0px;
+    margin: 0px 0px 30px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.2)), to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.2), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.2), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.2), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.2), rgba(0,0,0,0));
+    background-image: linear-gradient(top, rgba(255,255,255,.2), rgba(0,0,0,0));
+}
+.appointment .header h2, .appointment .header .number 
+{
+    text-shadow: 1px 1px 0px #20606D;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: normal;
+}  
+.appointment .header a i
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: #6DBEC2;
+    color: white;
+    padding-top: 3px;
+    padding-left: 6px;
+}
+.appointment .header .or 
+{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background: url(../img/or-bg.png) center center no-repeat; 
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: 17px;
+}
+.captcha-container 
+{
+    margin: 0 0 20px;
+}
+.captcha-container img 
+{
+    vertical-align: top;
+    margin: 10px 0px;
+}
+.appointment .input-group
+{
+    padding: 10px 0px;
+}
+
+
+
+.send 
+{
+    margin-bottom: 20px;
+}
+
+.but-pad{
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.but-pad1{
+    margin-left: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+/*-------------------------TABLE--------------------*/
+
+table-body {
+font-family: Arial, Verdana, sans-serif;
+color: #111111;}
+
+table {
+width: 600px;
+background-color:  #46a1b4;
+margin-bottom: 20px;
+margin-left: 40px;
+}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr.even {
+background-color:  #46a1b4;}
+tr:hover {
+background-color: white;}
+.money {
+text-align: right;}
+
+
+.service-title
+{
+    background: url(../img/gradient-blue-computer.jpg);
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    color: #F0FEFF;
+}
+.service-title .headline 
+{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.service-wrapper
+{
+    /*background-color: rgba(45, 53, 56, 0.28);*/
+    background-color: rgba(70, 161, 180, 0.62);
+    padding: 78px 0px;
+    margin-top: 65px;
+}
+.service
+{
+    padding: 40px 20px;
+    transition: all 0.5s ease 0s;
+}
+.featured-service-content 
+{
+    margin:none;
+}
+.service .service-icon i
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #6DBEC2;
+    background: #fff;
+    color: #6DBEC2;
+    padding-top: 38px;
+    transition: all 0.7s ease 0s;
+}
+.about-service h3 
+{
+    padding: 12px 0px;
+    color: darkcyan;
+}
+
+.about-service p 
+{
+    padding: 0px 10px;
+}
+.service:hover .service-icon i
+{
+    color: white;
+    background-color: #6DBEC2;
+}
+.service:hover .about-service h3
+{
+    color: #02A2B6;
+}
+.special-service
+{
+    margin-top: 50px;
+}
+.service-tab 
+{
+    margin-top: 50px;
+}
+
+.service-item 
+{
+    padding: 30px 0px;
+}
+.service-item img 
+{
+    margin-bottom: 30px;
+}
+.service-item h3 
+{
+    color: darkcyan;
+    margin-top: 0px;
+}
+.service-item p 
+{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.special-service h2
+{
+    background: url("../img/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.sub-headline 
+{
+    padding: 15px 0px 40px 0px;
+    font-size: 24px;
+}
+.headline 
+{
+    padding-top: 45px;
+    font-size: 45px;
+}
+.service-rm-btn
+{
+    background-color: transparent;
+    color: #46a1b4;
+    border-radius: 0px;
+    font-size: 15px;
+    transition: all 0.3s ease-in;
+    padding: 5px 12px;
+    margin: 4px 0px 0px 5px;
+    border-color: #46a1b4;
+}
+.service-rm-btn:hover
+{
+    /* background-color: #46a1b4; */
+    background-color: rgb(0, 139, 168);
+    color: #fff;
+    border-color: #3A90CD;
+}

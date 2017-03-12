@@ -1,0 +1,14 @@
+.question-text{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.answer-text{
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
